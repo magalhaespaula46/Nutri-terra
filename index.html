@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dra. Marina Santos | Nutricionista — Alimentação Personalizada</title>
+  <meta name="description" content="Nutricionista especialista em emagrecimento, reeducação alimentar e nutrição clínica. +500 pacientes atendidos. Agende sua consulta.">
+  <meta name="keywords" content="nutricionista, emagrecimento, reeducação alimentar, nutrição esportiva, plano alimentar, consulta nutricional">
+  <meta property="og:title" content="Dra. Marina Santos | Nutricionista">
+  <meta property="og:description" content="Transforme sua saúde com alimentação personalizada. +500 pacientes atendidos.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Dietitian","name":"Dra. Marina Santos","description":"Nutricionista especialista em emagrecimento e nutrição clínica","telephone":"+5511999999999","address":{"@type":"PostalAddress","addressLocality":"São Paulo","addressRegion":"SP","addressCountry":"BR"}}
+  </script>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar" role="banner">
+    <div class="container">
+      <a href="#" class="nav-logo" aria-label="Página inicial">🥗 Nutri<span>Vida</span></a>
+      <nav class="nav-links" role="navigation" aria-label="Menu principal">
+        <a href="#benefits">Benefícios</a>
+        <a href="#about">Sobre</a>
+        <a href="#areas">Especialidades</a>
+        <a href="#testimonials">Depoimentos</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <div class="nav-cta"><a href="#final-cta" class="btn btn-primary">Agendar Consulta</a></div>
+      <button class="mobile-toggle" aria-label="Abrir menu" onclick="document.getElementById('mobileMenu').classList.add('active')">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-close" onclick="this.parentElement.classList.remove('active')" aria-label="Fechar menu">&times;</button>
+    <a href="#benefits" onclick="this.parentElement.classList.remove('active')">Benefícios</a>
+    <a href="#about" onclick="this.parentElement.classList.remove('active')">Sobre</a>
+    <a href="#areas" onclick="this.parentElement.classList.remove('active')">Especialidades</a>
+    <a href="#testimonials" onclick="this.parentElement.classList.remove('active')">Depoimentos</a>
+    <a href="#faq" onclick="this.parentElement.classList.remove('active')">FAQ</a>
+    <a href="#final-cta" class="btn btn-primary" onclick="this.parentElement.classList.remove('active')">Agendar Consulta</a>
+  </div>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-badge"><span class="pulse"></span> Agendamentos Abertos</div>
+          <h1>Transforme sua saúde com uma <span class="highlight">alimentação que funciona</span> para você</h1>
+          <p class="hero-text">Nutrição personalizada com base científica e acolhimento. Resultados reais para uma vida mais saudável, equilibrada e com mais energia.</p>
+          <div class="hero-buttons">
+            <a href="#final-cta" class="btn btn-primary btn-large">📅 Agendar Consulta</a>
+            <a href="https://wa.me/5511999999999" class="btn btn-whatsapp btn-large" target="_blank" rel="noopener">💬 Falar no WhatsApp</a>
+          </div>
+          <div class="hero-trust">
+            <div class="trust-item"><span class="trust-stars">★★★★★</span> 5.0</div>
+            <div class="trust-item"><strong>+500</strong>&nbsp;pacientes</div>
+            <div class="trust-item"><strong>10 anos</strong>&nbsp;experiência</div>
+            <div class="trust-item">CRN-3 12345</div>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="assets/img/hero-nutri.png" alt="Dra. Marina Santos - Nutricionista" fetchpriority="high">
+          <div class="hero-float-card card-1">
+            <div class="float-icon green">🎯</div>
+            <div><div class="float-number">+500</div><div class="float-label">Pacientes Atendidos</div></div>
+          </div>
+          <div class="hero-float-card card-2">
+            <div class="float-icon orange">⭐</div>
+            <div><div class="float-number">5.0</div><div class="float-label">Avaliação Google</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BENEFITS -->
+    <section class="benefits" id="benefits">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">Por que me escolher</span>
+          <h2 class="section-title">Cuidado nutricional completo e personalizado</h2>
+          <p class="section-subtitle">Cada pessoa é única, e seu plano alimentar também deve ser.</p>
+        </div>
+        <div class="benefits-grid">
+          <div class="benefit-card reveal reveal-delay-1">
+            <div class="benefit-icon">🍽️</div>
+            <h3>Alimentação Personalizada</h3>
+            <p>Planos alimentares desenvolvidos exclusivamente para o seu corpo, rotina e objetivos.</p>
+          </div>
+          <div class="benefit-card reveal reveal-delay-2">
+            <div class="benefit-icon">📋</div>
+            <h3>Acompanhamento Completo</h3>
+            <p>Monitoramento contínuo da sua evolução com ajustes sempre que necessário.</p>
+          </div>
+          <div class="benefit-card reveal reveal-delay-3">
+            <div class="benefit-icon">📈</div>
+            <h3>Resultados Sustentáveis</h3>
+            <p>Foco em mudanças duradouras, sem dietas restritivas que não funcionam a longo prazo.</p>
+          </div>
+          <div class="benefit-card reveal reveal-delay-1">
+            <div class="benefit-icon">❤️</div>
+            <h3>Atendimento Humanizado</h3>
+            <p>Escuta ativa e empatia em cada consulta. Você não é apenas um número.</p>
+          </div>
+          <div class="benefit-card reveal reveal-delay-2">
+            <div class="benefit-icon">🎯</div>
+            <h3>Planos Individualizados</h3>
+            <p>Estratégias nutricionais alinhadas com suas preferências, intolerâncias e metas.</p>
+          </div>
+          <div class="benefit-card reveal reveal-delay-3">
+            <div class="benefit-icon">🔬</div>
+            <h3>Base Científica</h3>
+            <p>Condutas fundamentadas em evidências científicas atualizadas e protocolos seguros.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-image reveal">
+          <img src="assets/img/about-nutri.png" alt="Dra. Marina Santos em consultório" loading="lazy">
+          <div class="exp-badge"><span class="number">10+</span><span class="label">Anos de Experiência</span></div>
+        </div>
+        <div class="about-content reveal">
+          <span class="section-badge">Sobre mim</span>
+          <h2>Dra. Marina Santos</h2>
+          <p>Sou nutricionista formada pela USP, com pós-graduação em Nutrição Clínica e Esportiva. Há mais de 10 anos, ajudo pessoas a transformarem sua relação com a comida e conquistarem uma vida mais saudável.</p>
+          <p>Minha missão é oferecer um atendimento acolhedor, baseado em ciência, respeitando a individualidade de cada paciente. Acredito que comer bem deve ser prazeroso e sustentável.</p>
+          <div class="about-specs">
+            <div class="spec-item">✅ Nutrição Clínica Funcional</div>
+            <div class="spec-item">✅ Nutrição Esportiva</div>
+            <div class="spec-item">✅ Emagrecimento Saudável</div>
+            <div class="spec-item">✅ Saúde da Mulher</div>
+            <div class="spec-item">✅ Pós-graduação USP</div>
+            <div class="spec-item">✅ CRN-3 12345</div>
+            <div class="spec-item">✅ +500 Pacientes Atendidos</div>
+            <div class="spec-item">✅ Atualização Contínua</div>
+          </div>
+          <a href="#final-cta" class="btn btn-primary">Agendar Consulta</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- AREAS -->
+    <section class="areas" id="areas">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">Especialidades</span>
+          <h2 class="section-title">Áreas de Atuação</h2>
+          <p class="section-subtitle">Atendimento especializado para diferentes necessidades e fases da vida.</p>
+        </div>
+        <div class="areas-grid">
+          <div class="area-card reveal reveal-delay-1"><div class="area-icon">⚖️</div><h3>Emagrecimento</h3><p>Perda de peso saudável e sustentável</p></div>
+          <div class="area-card reveal reveal-delay-2"><div class="area-icon">💪</div><h3>Hipertrofia</h3><p>Ganho de massa muscular com nutrição</p></div>
+          <div class="area-card reveal reveal-delay-3"><div class="area-icon">🩺</div><h3>Nutrição Clínica</h3><p>Diabetes, hipertensão e mais</p></div>
+          <div class="area-card reveal reveal-delay-4"><div class="area-icon">🤰</div><h3>Gestantes</h3><p>Nutrição para mãe e bebê</p></div>
+          <div class="area-card reveal reveal-delay-1"><div class="area-icon">👴</div><h3>Idosos</h3><p>Nutrição para longevidade</p></div>
+          <div class="area-card reveal reveal-delay-2"><div class="area-icon">👶</div><h3>Crianças</h3><p>Alimentação infantil saudável</p></div>
+          <div class="area-card reveal reveal-delay-3"><div class="area-icon">🏃</div><h3>Esportistas</h3><p>Performance e recuperação</p></div>
+          <div class="area-card reveal reveal-delay-4"><div class="area-icon">🥗</div><h3>Reeducação Alimentar</h3><p>Nova relação com a comida</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="how-it-works" id="how-it-works">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">Passo a passo</span>
+          <h2 class="section-title">Como Funciona</h2>
+          <p class="section-subtitle">Um processo simples e acolhedor para cuidar da sua saúde.</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-step reveal reveal-delay-1"><div class="step-number">1</div><h3>Agendamento</h3><p>Escolha o melhor horário pelo WhatsApp ou formulário online.</p></div>
+          <div class="timeline-step reveal reveal-delay-2"><div class="step-number">2</div><h3>Avaliação</h3><p>Avaliação completa: histórico, exames, bioimpedância e metas.</p></div>
+          <div class="timeline-step reveal reveal-delay-3"><div class="step-number">3</div><h3>Plano Alimentar</h3><p>Plano personalizado, prático e adaptado ao seu dia a dia.</p></div>
+          <div class="timeline-step reveal reveal-delay-4"><div class="step-number">4</div><h3>Acompanhamento</h3><p>Retornos periódicos para ajustes e suporte contínuo.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DIFFERENTIALS -->
+    <section class="differentials" id="differentials">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">Diferenciais</span>
+          <h2 class="section-title">O Que Você Recebe</h2>
+          <p class="section-subtitle">Muito mais que uma consulta. Uma experiência completa de cuidado.</p>
+        </div>
+        <div class="diff-grid">
+          <div class="diff-card reveal"><div class="icon">💻</div><h3>Atendimento Online</h3><p>Consultas por videoconferência de qualquer lugar</p></div>
+          <div class="diff-card reveal"><div class="icon">📍</div><h3>Atendimento Presencial</h3><p>Consultório moderno e acolhedor</p></div>
+          <div class="diff-card reveal"><div class="icon">📄</div><h3>Plano Personalizado</h3><p>100% adaptado às suas necessidades</p></div>
+          <div class="diff-card reveal"><div class="icon">💬</div><h3>Suporte via WhatsApp</h3><p>Tire dúvidas entre as consultas</p></div>
+          <div class="diff-card reveal"><div class="icon">🍳</div><h3>Receitas Exclusivas</h3><p>Receitas práticas e deliciosas</p></div>
+          <div class="diff-card reveal"><div class="icon">📊</div><h3>Avaliação Física</h3><p>Análise completa da composição corporal</p></div>
+          <div class="diff-card reveal"><div class="icon">⚡</div><h3>Bioimpedância</h3><p>Tecnologia para acompanhar sua evolução</p></div>
+          <div class="diff-card reveal"><div class="icon">📱</div><h3>App de Acompanhamento</h3><p>Acompanhe seu progresso na palma da mão</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">Depoimentos</span>
+          <h2 class="section-title">O Que Meus Pacientes Dizem</h2>
+          <p class="section-subtitle">Histórias reais de transformação e bem-estar.</p>
+        </div>
+        <div class="testimonials-grid">
+          <div class="testimonial-card reveal reveal-delay-1">
+            <div class="quote">"</div>
+            <div class="stars">★★★★★</div>
+            <p>A Dra. Marina mudou minha vida! Perdi 15kg de forma saudável, sem passar fome. O acompanhamento é incrível e ela realmente se importa com cada paciente.</p>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face" alt="Paciente Carla" loading="lazy">
+              <div><div class="name">Carla Mendes</div><div class="role">Perdeu 15kg em 6 meses</div></div>
+            </div>
+          </div>
+          <div class="testimonial-card reveal reveal-delay-2">
+            <div class="quote">"</div>
+            <div class="stars">★★★★★</div>
+            <p>Finalmente encontrei uma nutricionista que entende minha rotina de atleta. Minha performance melhorou demais e os resultados foram muito além do esperado.</p>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face" alt="Paciente Ricardo" loading="lazy">
+              <div><div class="name">Ricardo Alves</div><div class="role">Atleta — Ganho de performance</div></div>
+            </div>
+          </div>
+          <div class="testimonial-card reveal reveal-delay-3">
+            <div class="quote">"</div>
+            <div class="stars">★★★★★</div>
+            <p>O atendimento online é super prático! Consegui controlar minha diabetes com uma alimentação deliciosa. Recomendo de olhos fechados.</p>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=100&h=100&fit=crop&crop=face" alt="Paciente Juliana" loading="lazy">
+              <div><div class="name">Juliana Costa</div><div class="role">Controle de diabetes tipo 2</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BEFORE AFTER -->
+    <section class="before-after" id="before-after">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">Resultados</span>
+          <h2 class="section-title">Transformações Reais</h2>
+          <p class="section-subtitle">Resultados alcançados com dedicação e acompanhamento profissional.</p>
+        </div>
+        <div class="ba-grid">
+          <div class="ba-card reveal"><div class="ba-images"><div class="ba-placeholder"><span>Antes</span>👤</div><div class="ba-placeholder"><span>Depois</span>👤</div></div><div class="ba-info"><h4>Emagrecimento</h4><p>-12kg em 5 meses</p></div></div>
+          <div class="ba-card reveal"><div class="ba-images"><div class="ba-placeholder"><span>Antes</span>👤</div><div class="ba-placeholder"><span>Depois</span>👤</div></div><div class="ba-info"><h4>Reeducação Alimentar</h4><p>Mudança de hábitos</p></div></div>
+          <div class="ba-card reveal"><div class="ba-images"><div class="ba-placeholder"><span>Antes</span>👤</div><div class="ba-placeholder"><span>Depois</span>👤</div></div><div class="ba-info"><h4>Ganho de Massa</h4><p>+8kg de massa magra</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">Dúvidas Frequentes</span>
+          <h2 class="section-title">Perguntas Frequentes</h2>
+          <p class="section-subtitle">Tire suas dúvidas antes de agendar.</p>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item reveal"><button class="faq-question" aria-expanded="false">Como funciona a primeira consulta?<span class="icon">+</span></button><div class="faq-answer"><p>Na primeira consulta, fazemos uma avaliação completa incluindo histórico de saúde, hábitos alimentares, exames laboratoriais, avaliação antropométrica e bioimpedância. Tudo para criar o plano perfeito para você.</p></div></div>
+          <div class="faq-item reveal"><button class="faq-question" aria-expanded="false">Quanto tempo dura a consulta?<span class="icon">+</span></button><div class="faq-answer"><p>A primeira consulta dura em média 60 minutos. As consultas de retorno duram aproximadamente 30 a 40 minutos.</p></div></div>
+          <div class="faq-item reveal"><button class="faq-question" aria-expanded="false">Aceita plano de saúde?<span class="icon">+</span></button><div class="faq-answer"><p>Atualmente trabalhamos com atendimento particular. Porém, emitimos recibo para reembolso junto ao seu plano de saúde.</p></div></div>
+          <div class="faq-item reveal"><button class="faq-question" aria-expanded="false">A consulta pode ser online?<span class="icon">+</span></button><div class="faq-answer"><p>Sim! Oferecemos atendimento por videoconferência com a mesma qualidade e atenção do presencial. Ideal para quem tem rotina corrida ou mora em outra cidade.</p></div></div>
+          <div class="faq-item reveal"><button class="faq-question" aria-expanded="false">Como é feito o plano alimentar?<span class="icon">+</span></button><div class="faq-answer"><p>O plano alimentar é 100% personalizado, considerando seus objetivos, preferências, rotina, intolerâncias e condições de saúde. Você recebe tudo em formato digital com receitas e substituições.</p></div></div>
+          <div class="faq-item reveal"><button class="faq-question" aria-expanded="false">Vou precisar parar de comer o que gosto?<span class="icon">+</span></button><div class="faq-answer"><p>De forma alguma! Trabalhamos com flexibilidade e equilíbrio. O objetivo é que você coma bem, com prazer, e alcance seus resultados de forma sustentável.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="final-cta" id="final-cta">
+      <div class="container reveal">
+        <h2>Pronto para transformar sua saúde?</h2>
+        <p>Dê o primeiro passo para uma vida mais saudável. Agende sua consulta agora e comece sua transformação hoje mesmo.</p>
+        <div class="buttons">
+          <a href="#" class="btn btn-primary btn-large">📅 Agendar Consulta</a>
+          <a href="https://wa.me/5511999999999" class="btn btn-secondary btn-large" target="_blank" rel="noopener">💬 Falar no WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo" style="color:#fff">🥗 Nutri<span>Vida</span></div>
+          <p>Nutrição personalizada com ciência e acolhimento. Transformando vidas através da alimentação saudável há mais de 10 anos.</p>
+        </div>
+        <div>
+          <h4>Links Rápidos</h4>
+          <ul><li><a href="#benefits">Benefícios</a></li><li><a href="#about">Sobre</a></li><li><a href="#areas">Especialidades</a></li><li><a href="#testimonials">Depoimentos</a></li><li><a href="#faq">FAQ</a></li></ul>
+        </div>
+        <div>
+          <h4>Contato</h4>
+          <ul class="footer-contact">
+            <li>📞 (11) 99999-9999</li>
+            <li>💬 WhatsApp</li>
+            <li>📧 contato@nutrivida.com.br</li>
+            <li>📍 São Paulo, SP</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Horário</h4>
+          <ul class="footer-contact">
+            <li>Seg a Sex: 8h às 18h</li>
+            <li>Sáb: 8h às 12h</li>
+            <li>CRN-3 12345</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 NutriVida — Todos os direitos reservados. | <a href="#">Política de Privacidade</a></p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram">📷</a>
+          <a href="#" aria-label="Facebook">📘</a>
+          <a href="#" aria-label="YouTube">▶️</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOAT -->
+  <a href="https://wa.me/5511999999999" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">💬</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
